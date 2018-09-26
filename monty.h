@@ -39,4 +39,5 @@ void push(stack_t **stack, unsigned int linenum);
 void pall(stack_t **stack, unsigned int linenum);
 void freestack(stack_t *stack);
 void pint(stack_t **stack, unsigned int linenum);
+void pop(stack_t **stack, unsigned int linenum);
 #endif
