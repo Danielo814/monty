@@ -6,8 +6,6 @@
  * Return: 0
  */
 
-unsigned int flag = 0;
-
 int main(int argc, char **argv)
 {
 	FILE *fp = NULL;
