@@ -28,7 +28,7 @@ void get_func(char *command, stack_t **stack, unsigned int linenum)
 	}
 	if (commands[i].opcode == NULL)
 	{
-		printf("L%d: unknown instruction %s\n", linenum, command);
+		fprintf(stderr, "L%d: unknown instruction %s\n", linenum, command);
 		exit(EXIT_FAILURE);
 	}
 }
