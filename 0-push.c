@@ -25,17 +25,17 @@ void push(stack_t **stack, unsigned int linenum)
 	}
 	if (tok == NULL || retval == 1)
 	{
-		printf("L%u: usage: push integer\n", linenum);
+		fprintf(stderr, "L%u: usage: push integer\n", linenum);
 		exit(EXIT_FAILURE);
 	}
 	if (!new_node)
 	{
-		printf("Error: malloc failed\n");
+		fprintf(stderr, "Error: malloc failed\n");
 		exit(EXIT_FAILURE);
 	}
 	if (!stack)
 	{
-		printf("Error: malloc failed\n");
+		fprintf(stderr, "Error: malloc failed\n");
 		exit(EXIT_FAILURE);
 	}
 	new_node->n = atoi(tok);
