@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-extern unsigned int flag = 0;
+unsigned int flag = 0;
 
 int main(int argc, char **argv)
 {
