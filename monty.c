@@ -38,5 +38,6 @@ int main(int argc, char **argv)
 	}
 	free(buff);
 	fclose(fp);
+	freestack(stack);
 	return (0);
 }
