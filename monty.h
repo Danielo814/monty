@@ -39,4 +39,5 @@ extern unsigned int flag;
 void get_func(char *command, stack_t **stack, unsigned int linenum);
 void push(stack_t **stack, unsigned int linenum);
 void pall(stack_t **stack, unsigned int linenum);
+void freestack(stack_t *stack);
 #endif
