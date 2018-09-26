@@ -10,7 +10,7 @@ void get_func(char *command, stack_t **stack, unsigned int linenum)
 	unsigned int i = 0;
 	instruction_t commands[] = {
 		{"push", push}, {"pall", pall},
-		{"pint", pint},
+		{"pint", pint}, {"pop", pop},
 	     /**
 	      *	{"pop", pop}, {"pint", pint},
 	      *	{"swap", swap}, {"add", add},
