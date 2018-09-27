@@ -77,6 +77,7 @@ julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ ./monty bytecodes/00.m
 julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$
 ```
 
+
 * The ```pint``` opcode prints the value at the top of the stack.
 ```
 julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ cat bytecodes/06.m 
@@ -92,6 +93,7 @@ julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ ./monty bytecodes/06.m
 3
 julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ 
 ```
+
 
 * The ```pop``` opcode removes the top element of the stack.
 ```
@@ -116,6 +118,7 @@ julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ ./monty bytecodes/07.m
 julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ 
 ```
 
+
 * The ```swap``` opcode swaps the top two elements of the stack.
 ```
 julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ cat bytecodes/09.m 
@@ -135,6 +138,7 @@ julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ ./monty bytecodes/09.m
 julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ 
 ```
 
+
 * The ```add``` opcode adds the top two elements of the stack.
 ```
 julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ cat bytecodes/12.m 
@@ -153,5 +157,6 @@ julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$ ./monty bytecodes/12.m
 1
 julien@ubuntu:~/0x18-stacks_queues_lifo_fifo$
 ```
+
 
 * The ```nop``` opcode doesn't do anything.
