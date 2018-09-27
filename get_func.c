@@ -12,12 +12,7 @@ void get_func(char *command, stack_t **stack, unsigned int linenum)
 		{"push", push}, {"pall", pall},
 		{"pint", pint}, {"pop", pop},
 		{"swap", swap}, {"add", add},
-	     /**
-	      *	{"pop", pop}, {"pint", pint},
-	      *	{"swap", swap}, {"add", add},
-	      *	{"nop", nop},
-	      */
-		{NULL, NULL}
+		{"nop", nop}, {NULL, NULL}
 	};
 	while (commands[i].opcode != NULL)
 	{
