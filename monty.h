@@ -43,4 +43,5 @@ void pop(stack_t **stack, unsigned int linenum);
 void swap(stack_t **stack, unsigned int linenum);
 void add(stack_t **stack, unsigned int linenum);
 void nop(stack_t **stack, unsigned int linenum);
+void sub(stack_t **stack, unsigned int linenum);
 #endif
